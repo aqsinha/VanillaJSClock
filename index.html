@@ -1,0 +1,36 @@
+<html>
+   <head> 
+     <title> Analog Clock </title>
+     <script src="script.js" defer type="text/javascript"> </script>
+     <link rel="stylesheet" href="style.css" type="text/css" media="all">
+   </head>
+
+   <body>
+     <main class="main">
+
+     	<div class="clockbox">
+        
+          <svg id="clock" width="600" height="600" viewBox="0 0 600 600">
+            
+            <g id="clockface">
+            	<circle class="face" cx="300" cy="300" r="250"/>
+            	<circle class="midcircle" cx="300" cy="300" r="15"/>
+            </g>
+
+            <g id="hour">
+            	<path class="hour-hand" d="M 300.5 298 V142"/>
+            </g>
+
+            <g id="minute">
+            	<path class="minute-hand" d="M 300.5 298 V78"/>
+            </g>
+
+            <g id="second">
+            	<path class="second-hand" d="M 300.5 298 V 67"/>
+            </g>
+
+          </svg>
+        </div>
+     </main>
+   </body>
+</html>

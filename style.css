@@ -1,0 +1,43 @@
+.main{
+	display: "flex";
+	padding: 2em;
+}
+
+.clockbox,
+#clock{
+	width: 100%;
+}
+
+.face {
+	fill: none;
+	stroke: #000;
+	stroke-width: 9;
+}
+
+.midcircle {
+	fill: #000;
+}
+
+.hour-hand {
+   fill: none;
+   stroke-width: 17;
+   stroke: #000;
+}
+
+.minute-hand {
+	fill: none;
+    stroke-width: 11;
+    stroke: #000;
+}
+
+.second-hand {
+    fill: none;
+    stroke-width: 4;
+    stroke: #000;
+}
+
+#hour,
+#minute,
+#second {
+	transform-origin: 300px 300px;
+}
